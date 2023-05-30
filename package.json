@@ -1,7 +1,7 @@
 {
-  "name": "artclass",
+  "name": "Calculator Heaven",
   "version": "3.0.0",
-  "description": "Art Class v3",
+  "description": "Calculator Heaven 2.0",
   "type": "module",
   "engines": {
     "npm": ">=8.0.0",
