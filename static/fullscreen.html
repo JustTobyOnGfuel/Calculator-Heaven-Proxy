@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Art Class</title> 
+  <title>Calculator Heaven</title> 
   <link href="icon.png" rel="icon" />
   <script async src="https://arc.io/widget.min.js#HC4S5PSX"></script>
   <style>
@@ -161,7 +161,7 @@ footer {
 
   </style>
   <script src="https://kit.fontawesome.com/e897e5d5dc.js" crossorigin="anonymous"></script>
-  <script defer data-api="/data/event" data-domain="artclass.site" src="/data/script.js"></script>
+  <script defer data-api="/data/event" data-domain="calculator-heaven.cyclic.app" src="/data/script.js"></script>
  
 </head>
 
@@ -195,7 +195,7 @@ footer {
     if (params.get("game")) {
       games.forEach(game => {
         if (game.id != params.get("game")) return
-        document.title = `${game.title} | Art Class`
+        document.title = `${game.title} | Calculator Heaven`
         if (game.note) document.querySelector("#note").innerHTML = game.note
         if (game.fullscreen) document.querySelector("#footer").style.display = "none"
         navigator.serviceWorker.register('./loadsw.js', {
@@ -232,7 +232,7 @@ footer {
     } else if (params.get("app")) {
       apps.forEach(app => {
         if (app.id != params.get("app")) return
-        document.title = `${app.title} | Art Class`
+        document.title = `${app.title} | Calculator Heaven`
         navigator.serviceWorker.register('./loadsw.js', {
           scope: __uv$config.prefix
           
