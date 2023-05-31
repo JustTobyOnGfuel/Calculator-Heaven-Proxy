@@ -2,7 +2,6 @@ var splashtexts = [
     "What is this?",
     "do your homework kids",
     "why does this exist",
-    'balls"
     "I give up",
     "2+2 is 22",
     "what are friends?",
