@@ -2,18 +2,18 @@
 
 <head>
 
-  <title>Art Class</title>
+  <title>Calculator Heaven</title>
   <link rel="icon" href="icon.png">
   
-  <meta content="Art Class" property="og:title" />
-  <meta content='Art Class is the #1 site for all-in-one school entertainment. Accelerate your "learning" with our collection of games, apps, emulators, proxies, and so much more.' property="og:description" />
+  <meta content="Calculator Heaven" property="og:title" />
+  <meta content='Calculator Heaven is the #1 site for all-in-one school entertainment. Accelerate your "learning" with our collection of games, apps, emulators, proxies, and so much more.' property="og:description" />
   <meta content="icon.png" property="og:image" />
   <meta content="#2b2d31" data-react-helmet="true" name="theme-color" />
   
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="styles/navbar.css" />
   <script src="https://kit.fontawesome.com/e897e5d5dc.js" crossorigin="anonymous"></script>
-  <script defer data-api="/data/event" data-domain="artclass.site" src="/data/script.js"></script>
+  <script defer data-api="/data/event" data-domain="calculator-heaven.cyclic.app" src="/data/script.js"></script>
   <script async src="https://arc.io/widget.min.js#HC4S5PSX"></script>
   <script src="js/main.js"></script>
 </head>
@@ -89,7 +89,7 @@
     if (params.get("game")) {
       games.forEach(game => {
         if (game.id != params.get("game")) return
-        document.title = `${game.title} | Art Class`
+        document.title = `${game.title} | Calculator Heaven`
         document.querySelector("#gameImage").src = game.image
         document.querySelector("#gameTitle").innerHTML = game.title
         if (game.description) document.querySelector("#gameDescription").innerHTML = game.description
@@ -104,7 +104,7 @@
       
       apps.forEach(app => {
         if (app.id != params.get("app")) return
-        document.title = `${app.title} | Art Class`
+        document.title = `${app.title} | Calculator Heaven`
         document.querySelector("#gameImage").src = app.image
         document.querySelector("#gameTitle").innerHTML = app.title
         if (app.description) document.querySelector("#gameDescription").innerHTML = app.description
@@ -120,7 +120,7 @@
     } else if (params.get("util")) {
       utils.forEach(util => {
         if (util.id != params.get("utils")) return
-        document.title = `${util.title} | Art Class`
+        document.title = `${util.title} | Calculator Heaven`
         //document.querySelector("#gameImage").src = util.image
         document.querySelector("#gameTitle").innerHTML = util.title
         if (util.description) document.querySelector("#gameDescription").innerHTML = util.description
