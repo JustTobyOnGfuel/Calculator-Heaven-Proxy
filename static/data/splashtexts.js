@@ -2,7 +2,7 @@ var splashtexts = [
     "What is this?",
     "do your homework kids",
     "why does this exist",
-    "maybe",
+    'balls"
     "I give up",
     "2+2 is 22",
     "what are friends?",
@@ -11,7 +11,7 @@ var splashtexts = [
     "I love randomized text",
     "I have missles aimed at your home",
     "ding,ding,ding... incorrect!",
-    "no",
+    "nope",
     "I speak for the trees",
     "why are you here",
     "I know your address",
