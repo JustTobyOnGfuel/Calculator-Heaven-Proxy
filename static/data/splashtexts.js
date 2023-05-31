@@ -7,7 +7,7 @@ var splashtexts = [
     "I give up",
     "2+2 is 22",
     "what are friends?",
-    "no david no",
+    "Grayson Owen Pope little smurf",
     "don't tell Blake!",
     "I love randomized text",
     "I have missles aimed at your home",
