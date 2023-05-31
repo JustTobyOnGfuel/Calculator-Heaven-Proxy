@@ -1,7 +1,7 @@
 {
-  "name": "Art Class",
-  "description": "Art Class v3",
+  "name": "Calculator Heaven",
+  "description": "Calculator Heaven 2.0",
   "repository": "https://github.com/titaniumnetwork-dev/ultraviolet-app",
   "logo": "https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png",
-  "keywords": ["artclass"]
+  "keywords": ["Calculator Heaven"]
 }
